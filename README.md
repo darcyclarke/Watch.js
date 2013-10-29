@@ -1,6 +1,6 @@
 #jQuery Watch Plugin
  
-This plugin lets you listen for when a CSS property, or properties, changes on element. It utilizes the `DOMAttrModified` or `propertychange` events, when available, and fallsback to polling utilizing `setTimeout()`.
+This plugin lets you listen for when a CSS property, or properties, changes on element. It utilizes `Mutation Observers` or the `DOMAttrModified` / `propertychange` events, when available, and fallsback to polling utilizing `setInterval()`.
 
 Original blog post can be found [here](http://darcyclarke.me/development/detect-attribute-changes-with-jquery/)
 
