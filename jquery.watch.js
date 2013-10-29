@@ -2,7 +2,6 @@
  * jQuery Watch Plugin
  *
  * @author Darcy Clarke
- * @version 2.0.1
  *
  * Copyright (c) 2013 Darcy Clarke
  * Dual licensed under the MIT and GPL licenses.
