@@ -123,10 +123,10 @@
       this.watching.push(data);
 
       // Choose method of watching and fallback
-      if(!MutationObserver){
+      if(MutationObserver){
         var observer = new MutationObserver(function(mutations){
-          mutations.forEach(function(e) {
-            callback.call(that, e);
+          mutations.forEach(function(mutation){
+            callback.call(that, mutation);
           });
         });
         observer.observe(this, { subtree: false, attributes: true });
