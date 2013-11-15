@@ -158,18 +158,18 @@ window.watch = function(){
       }
 
       // Set data
-      if(!this.watching)
-        this.watching = [];
-      this.watching.push(data);
+      if(!that.watching)
+        that.watching = [];
+      that.watching.push(data);
 
       // Choose method of watching and fallback
       if(MutationObserver){
         var observer = new MutationObserver(function(mutations){
           mutations.forEach(function(e) {
-            callback.call(that, e);
+            callback.call(el, e);
           });
         });
-        observer.observe(this, { subtree: false, attributes: true });
+        observer.observe(el, { subtree: false, attributes: true });
       } else if(isEventSupported('DOMAttrModified', div)){
         addEvent(el, 'DOMAttrModified', callback);
       } else if(isEventSupported('propertychange', div)){
