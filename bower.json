@@ -1,0 +1,24 @@
+{
+  "name": "watch",
+  "title": "Watch.js",
+  "description": "Plugin for watching CSS property or element attribute changes.",
+  "version": "2.0.4",
+  "main": "watch.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "test.html",
+    "*.md",
+    "package.json"
+  ],
+  "keywords": [
+    "watch",
+    "change",
+    "domattrmodified",
+    "propertychange",
+    "polling",
+    "attributes",
+    "properties",
+    "observer"
+  ]
+}
