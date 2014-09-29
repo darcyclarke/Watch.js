@@ -7,8 +7,7 @@ There is both a jQuery-specific plugin as well as a library agnostic version of 
 Original blog post can be found [here](http://darcyclarke.me/development/detect-attribute-changes-with-jquery/)
 
 #### Bower Usage
-```shell
-
+```
 bower install darcyclarke/watch.js --save
 ````
 
