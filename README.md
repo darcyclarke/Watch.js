@@ -31,6 +31,9 @@ $('div').watch('width height', function(){
 });
 ````
 
+#### Dependancies 
+This library utilizes the Polymer team's [Mutation Observers](https://github.com/polymer/MutationObservers) and [WeakMap](https://github.com/Polymer/WeakMap) Polyfills. They are included by default which bulks the library a bit. Depending on future usage, I may choose to references these as bower dependancies. 
+
 #### Original Release & Examples
 
 [http://darcyclarke.me/dev/watch/](http://darcyclarke.me/dev/watch/)
