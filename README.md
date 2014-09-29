@@ -1,6 +1,6 @@
 #Watch.js
  
-This plugin lets you listen for when a CSS property, or properties, changes on element. It utilizes `Mutation Observers` or the `DOMAttrModified` / `propertychange` events, when available, and fallsback to polling utilizing `setInterval()`.
+This plugin lets you listen for when a CSS property, or properties, changes on element. It utilizes `Mutation Observers` to mimic the `DOMAttrModified` (Mutation Events API) and `propertychange` (Internet Explorer) events.
 
 There is both a jQuery-specific plugin as well as a library agnostic version of this plugin available. 
 
