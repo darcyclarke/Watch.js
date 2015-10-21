@@ -115,7 +115,7 @@
 
       // Create new Mutation Observer
       var observer = new MutationObserver(function (mutations) {
-        console.log(mutations);
+        // console.log(mutations);
         for (var k = 0; k < mutations.length; k++) {
           check.call(mutations[k].target, mutations[k]);
         }
